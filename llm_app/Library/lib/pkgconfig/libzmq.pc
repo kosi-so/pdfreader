@@ -1,0 +1,12 @@
+prefix=c:/Users/User/Documents/Kosi/projects/langchain/llm_app/llm_app/Library
+exec_prefix=c:/Users/User/Documents/Kosi/projects/langchain/llm_app/llm_app/Library
+libdir=c:/Users/User/Documents/Kosi/projects/langchain/llm_app/llm_app/Library/lib
+includedir=c:/Users/User/Documents/Kosi/projects/langchain/llm_app/llm_app/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
